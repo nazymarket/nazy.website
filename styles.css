@@ -1,0 +1,106 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1f1f1f;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #f5ba13;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #f5ba13;
+    transition: color 0.3s ease;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+.service-card {
+    background-color: #1f1f1f;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 8px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+    background-color: #282828;
+}
+
+.gallery-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#gallery-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+input, textarea, button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input, textarea {
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+
+button {
+    background-color: #f5ba13;
+    color: #121212;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e09e08;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1f1f1f;
+    margin-top: 40px;
+}
